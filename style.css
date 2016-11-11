@@ -1,0 +1,43 @@
+body{
+	background-repeat: no-repeat;
+	/*background-size: cover;*/
+}
+
+#main {
+	background: rgba(200,200,200,.5); 
+	height: 100px;
+}
+div {
+	color: white;
+	float: right;
+	margin: 20px 30px 20px 30px;
+	font-size: 24px;
+}
+#main_photo{
+	width: 300px;
+	margin: 10px;
+}
+.joke{
+	clear:both;
+	float: left;
+	width: 400px;
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+	margin-left: 100px;
+	text-align: center;
+	margin-top: 100px;
+}
+.info-container{
+	float: left;
+	width: 300px;
+	background: rgb(240,240,240);
+	border-radius: 5px;
+	height: 400px;
+	margin-left: 200px;
+	margin-top: 30px;
+	padding: 20px;
+}
+button {
+	text-align: center;
+}
