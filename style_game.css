@@ -1,5 +1,6 @@
 #game_background {
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 .cars {
 	height: 100px;
