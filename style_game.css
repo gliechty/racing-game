@@ -1,0 +1,10 @@
+#game_background {
+	background-size: cover;
+}
+.cars {
+	height: 100px;
+	width: 100px;
+	border: 1px solid red;
+	margin: 20px;
+	margin-top: 140px;
+}
