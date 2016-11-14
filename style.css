@@ -2,7 +2,12 @@ body{
 	background-repeat: no-repeat;
 	/*background-size: cover;*/
 }
-
+#photo {
+	width: 100%;
+}
+form {
+	text-align: center;
+}
 #main {
 	background: rgba(200,200,200,.5); 
 	height: 100px;
@@ -20,7 +25,7 @@ div {
 .joke{
 	clear:both;
 	float: left;
-	width: 400px;
+	width: 40%;
 	color: white;
 	font-size: 50px;
 	font-weight: bold;
@@ -31,13 +36,24 @@ div {
 .info-container{
 	float: left;
 	width: 300px;
-	background: rgb(240,240,240);
+	background: rgba(240,240,240,.5);
 	border-radius: 5px;
 	height: 400px;
 	margin-left: 200px;
 	margin-top: 30px;
 	padding: 20px;
+	font-family:'Anton', sans-serif;
 }
 button {
 	text-align: center;
+	padding: 15px;
+	font-family:'Anton', sans-serif;
+	border-radius: 3px;
+}
+button:hover{
+	background-color: rgb(244, 66, 170);
+	color: white;
+}
+.nav {
+	width: auto;
 }
