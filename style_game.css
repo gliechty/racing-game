@@ -3,12 +3,21 @@
 	background-repeat: no-repeat;
 }
 .cars {
-	height: 100px;
-	width: 100px;
-	border: 1px solid red;
+	position: relative;
+	height: 50px;
+	width: auto;
 	margin: 20px;
-	margin-top: 140px;
+	margin-top: 20%;
 }
+
 img {
 	display: block;
+	width: 100%;
+}
+#button{
+	text-align: center;
+}
+#restart {
+	margin: 0 auto;
+	text-align: center;
 }

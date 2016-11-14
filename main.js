@@ -1,30 +1,31 @@
 // make sure js is connected
 console.log("JS WORKS");
 
-//set variables for pl1 and pl2
-
-var p1 = document.getElementById('player1');
-var p2 = document.getElementById('player2');
-
-//set event listeners
-
 //set var for num of clicks pl1/pl2
 p1Clicks = 0;
 p2Clicks = 0;
 
+// sets a margin counter
+mar1=0;
+mar2=0;
+
+//set event listeners
 //set function to move plr positions, and add to #clicks
 document.addEventListener('keydown', function(event) {
     //left
     if(event.keyCode == 37) {
         console.log('p1 moves');
         var p1 = document.getElementById('player1');
-        p1.style.left += 200 + "px";
+        p1.style.left = mar1 + "px";
         p1Clicks += 1;
+        mar1 += 27;
     } else if (event.keyCode == 38) {
     	console.log('p2 moves');
     	var p2 = document.getElementById('player2');
-    	p2.style.left += 200 + "px";
+    	p2.style.left = mar2 + "px";
     	p2Clicks += 1;
+    	mar2 += 27;
+    	console.log(mar2);
     }
     isWin();
 });

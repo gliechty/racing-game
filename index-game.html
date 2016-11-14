@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Speed Racer</title>
-	<link rel="stylesheet" type="text/css" href="style_game.css">
-	<script src="main.js" type="text/javascript"></script>
-</head>
-	<section>
-		<button onclick="reset()">Race Again</button>
-	</section>
-<body background="photos/game_background.jpg" id="game_background">
-	<img id="player1" class="cars" src="photos/redCar.jpeg">
-	<img id="player2" class="cars" src="photos/greenCar.png">
-</body>
+	<head>
+		<title>Speed Racer</title>
+		<link rel="stylesheet" type="text/css" href="style_game.css">
+	</head>
+	<body background="photos/game_background.jpg" id="game_background">
+		<img id="player1" class="cars" src="photos/redCar.jpeg">
+		<img id="player2" class="cars" src="photos/greenCar.png">
+		<br>
+		<section id="button">
+			<button onclick="reset()" id="restart">Race Again</button>
+		</section>
+		<script src="main.js" type="text/javascript"></script>
+	</body>
 </html>
