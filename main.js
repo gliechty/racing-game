@@ -16,15 +16,15 @@ document.addEventListener('keydown', function(event) {
     if(event.keyCode == 37) {
         console.log('p1 moves');
         var p1 = document.getElementById('player1');
-        p1.style.left = mar1 + "px";
+        p1.style.left = mar1 + "%";
         p1Clicks += 1;
-        mar1 += 27;
+        mar1 += 3.5;
     } else if (event.keyCode == 38) {
     	console.log('p2 moves');
     	var p2 = document.getElementById('player2');
-    	p2.style.left = mar2 + "px";
+    	p2.style.left = mar2 + "%";
     	p2Clicks += 1;
-    	mar2 += 27;
+    	mar2 += 3.5;
     	console.log(mar2);
     }
     isWin();
