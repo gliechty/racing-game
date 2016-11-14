@@ -33,6 +33,11 @@ document.addEventListener('keydown', function(event) {
 
 //function to determine win @threshold (determine #clicks needed )
 var isWin = function () {
+	if (p1Clicks == 25) {
+		alert("Player 1 Wins!");
+	} else if (p2Clicks == 25) {
+		alert("player 2 Wins!");
+	}
 };
 
 //reloads page to reset game
