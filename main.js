@@ -18,12 +18,12 @@ document.addEventListener('keydown', function(event) {
     if(event.keyCode == 37) {
         console.log('p1 moves');
         var p1 = document.getElementById('player1');
-        p1.style.left += "200px";
+        p1.style.left += 200 + "px";
         p1Clicks += 1;
     } else if (event.keyCode == 38) {
     	console.log('p2 moves');
     	var p2 = document.getElementById('player2');
-    	p2.style.left += "200px";
+    	p2.style.left += 200 + "px";
     	p2Clicks += 1;
     }
     isWin();
